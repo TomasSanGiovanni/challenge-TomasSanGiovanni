@@ -3,14 +3,7 @@ $nombre = $_POST('Nombre');
 $apellido = $_POST('Apellido');
 $Dni = $_POST('Dni');
 $email = $_POST('email');
-$asunto = "Inscripcion evento 26 de junio realizada con exito";
 
-$rta = mail('tomassangiovanni1@gmail.com',"Mensaje Web:$asunto",$Dni);
-var_dump($rta);
-
-
-
-/*
 $destinatario = "Tomassangiovanni1@gmail.com";
 $asunto = "Inscripcion evento 26 de junio realizada con exito";
 

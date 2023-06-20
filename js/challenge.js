@@ -13,10 +13,11 @@ if (condicion == true){
 }
 
 })
-/*Validos que todos lo datos ingresados sean correctos*/
+/* Validos que todos lo datos ingresados sean correncto */
 function validacionDatos (){
     form.lastElementChild.innerHTML = ""
     let condicion = true;
+    const datosIngresados = []; 
     let regexEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,4})+$/ ;
         listaEntradas.forEach((element) => {
         element.lastElementChild.innerHTML = "";
@@ -46,8 +47,15 @@ function validacionDatos (){
         if (dni.value.length !=8){
             MensajeError("formDni","Ingrese el DNI");
             condicion = false;
-        }
-       
+        }else if (datosIngresados.includes(dni.value)) {
+            MensajeError("formDni", "El DNI ya fue registrado previamente");
+            condicion = false;
+          }  else if (datosIngresados.length >= 2) {
+            MensajeError("formDni", "Se ha alcanzado el límite máximo de usuarios registrados");
+            condicion = false;
+          } else {
+            datosIngresados.push(dni.value);
+          }
         if (!regexEmail.test(email.value) || email.value.length < 1 ){
             MensajeError("formEmail","Ingrese su email");
             condicion = false;

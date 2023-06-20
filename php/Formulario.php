@@ -4,7 +4,7 @@ $apellido = $_POST('Apellido');
 $Dni = $_POST('Dni');
 $email = $_POST('email');
 
-$destinatario = "Tomassangiovanni1@gmail.com";
+$destinatario = "tomassangiovanni1@gmail.com";
 $asunto = "Inscripcion evento 26 de junio realizada con exito";
 
 $cuerpo = '

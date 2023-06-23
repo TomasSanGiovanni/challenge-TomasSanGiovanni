@@ -156,64 +156,71 @@ select {
 }
 
 @media screen and (max-width: 768px) {
+    .Contenido-encabezado{
+        width: 60%;
+    }
+    .Titulo-princ h1 {
+        font-size: 8px;
+    }
+    
 
     .Contenido-encabezado ul {
         margin-top: 50px;
         margin-right: 5px;
-        width: 80%;
+        width: 60%;
     }
 
     .Contenido-encabezado a {
-        font-size: 12px;
-        padding: 5;
+        font-size: 6px;
+        padding: 2px;
     }
+
 
     .Contenido-princ {
         display: block;
-        margin-left: 60px;
-
+        width: 90%;
+        margin-right: 40px;
     }
 
-    .Titulo-princ {
-
-        font-size: 12px;
-
-    }
 
     .Contenido-img img {
-        width: 300px;
+        width: 180px;
     }
 
     .Contenido-img p {
-        padding: 20px;
-        width: 85%;
-        font-size: 15px;
+    padding-top: 5px;
+        width: 65%;
+        font-size: 8px;
     }
 
     .form-content {
-        width: 60%;
+        width: 40%;
         margin-left: 40px;
 
     }
 
     .form-content h2 {
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 30px;
+        font-size: 12px;
+        margin-top: 8px;
+        margin-bottom: 20px;
     }
 
     .form-content label {
-        font-size: 12px;
+        font-size: 8px;
     }
 
     .form-content input,
     select {
-        padding: 14px 11px;
-        font-size: 12px;
-        margin-bottom: 10px;
-        border-radius: 5px;
+        padding: 7px 5px;
+        font-size: 8px;
+        margin-bottom: 5px;
+        border-radius: 2,5px;
 
 
 
     }
+    .Cotenido-footer{
+        width: 60%;
+    }
+
 }

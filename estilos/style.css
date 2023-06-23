@@ -155,6 +155,7 @@ select {
     padding: 10px;
 }
 
+
 @media screen and (max-width: 768px) {
     
     .Titulo-princ h1 {
@@ -222,3 +223,29 @@ select {
     
 
 }
+
+@media screen and (max-width:912px) {
+    
+    
+    .Contenido-princ {
+        display: block;
+        margin-top: 60px;
+        width: 100%;
+         margin-left: 120px;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+            .Contenido-princ p{
+                
+                padding: 10px;
+                text-align: center;
+                margin: 40px;
+            }
+
+            .form-content{
+                width: 50%;
+                
+            }
+}    
+    

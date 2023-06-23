@@ -158,7 +158,9 @@ select {
 
 @media screen and (max-width:912px) {
 
-
+.Contenido-encabezado{
+    width: 100;
+}
     .Contenido-princ {
         display: block;
         margin-top: 60px;
@@ -179,6 +181,9 @@ select {
     .form-content {
         width: 50%;
 
+    }
+    .Cotenido-footer{
+        width: 100%;
     }
 }
 
@@ -203,7 +208,7 @@ select {
     .Contenido-princ {
         display: block;
         width: 90%;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
 
@@ -216,13 +221,13 @@ select {
         padding-top: 5px;
         text-align: center;
         width: 100%;
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 20px;
     }
 
     .form-content {
-        width: 60%;
-        margin-left: 80px;
+        width: 80%;
+        margin-left: 60px;
 
     }
 
@@ -233,15 +238,15 @@ select {
     }
 
     .form-content label {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .form-content input,
     select {
-        padding: 14px 11px;
-        font-size: 8px;
-        margin-bottom: 5px;
-        border-radius: 2, 5px;
+        padding: 11px 8px;
+        font-size: 10px;
+        margin-bottom: 4px;
+        border-radius: 3px;
 
 
 

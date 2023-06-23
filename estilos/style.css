@@ -156,62 +156,59 @@ select {
 }
 
 @media screen and (max-width: 768px) {
-    .Contenido-encabezado{
-        width: 60%;
-    }
+    
     .Titulo-princ h1 {
-        font-size: 8px;
+        font-size: 12px;
     }
     
 
     .Contenido-encabezado ul {
         margin-top: 50px;
-        margin-right: 5px;
-        width: 60%;
+        width: 50%;
     }
 
     .Contenido-encabezado a {
-        font-size: 6px;
-        padding: 2px;
+        font-size: 10px;
+        padding: 6px;
     }
 
 
     .Contenido-princ {
         display: block;
         width: 90%;
-        margin-right: 40px;
+        margin-left: 15px;
     }
 
 
     .Contenido-img img {
-        width: 180px;
+        width: 300px;
     }
 
     .Contenido-img p {
     padding-top: 5px;
-        width: 65%;
-        font-size: 8px;
+        width: 100%;
+        font-size: 12px;
     }
 
     .form-content {
-        width: 40%;
+        width: 60%;
         margin-left: 40px;
 
     }
 
     .form-content h2 {
-        font-size: 12px;
-        margin-top: 8px;
-        margin-bottom: 20px;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
 
     .form-content label {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .form-content input,
     select {
-        padding: 7px 5px;
+        padding: 14px 11px;
         font-size: 8px;
         margin-bottom: 5px;
         border-radius: 2,5px;
@@ -219,8 +216,6 @@ select {
 
 
     }
-    .Cotenido-footer{
-        width: 60%;
-    }
+    
 
 }

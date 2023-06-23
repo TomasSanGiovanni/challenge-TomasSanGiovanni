@@ -155,7 +155,7 @@ select {
     font-size: 12px;
     padding: 10px;
 }
-
+/*
 @media screen and (max-width:912px) {
 
 .Contenido-encabezado{
@@ -185,7 +185,7 @@ select {
     .Cotenido-footer{
         width: 100%;
     }
-}
+}*/
 
 @media screen and (max-width: 768px) {
 
@@ -223,30 +223,32 @@ select {
         width: 100%;
         font-size: 18px;
         margin-left: 20px;
+        
     }
 
     .form-content {
         width: 80%;
-        margin-left: 60px;
+        margin-left: 40px;
+       
 
     }
 
     .form-content h2 {
         font-size: 18px;
         margin-top: 15px;
-        margin-bottom: 30px;
+        
     }
 
     .form-content label {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .form-content input,
     select {
-        padding: 11px 8px;
+        
         font-size: 10px;
-        margin-bottom: 4px;
-        border-radius: 3px;
+        margin-bottom: 5px;
+        padding: 11px 8px;
 
 
 

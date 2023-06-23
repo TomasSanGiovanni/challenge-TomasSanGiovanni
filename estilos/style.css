@@ -65,7 +65,7 @@ img:hover {
     transition: all 0.5s linear;
 }
 
-.Contenido-img  p {
+.Contenido-img p {
     text-align: justify;
     width: 70%;
     font-size: 20px;
@@ -137,7 +137,8 @@ select {
     padding-bottom: 15px;
 
 }
-.InscripciónRealizada{
+
+.InscripciónRealizada {
     color: white;
 }
 
@@ -149,19 +150,44 @@ select {
 
 .text-footer {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     font-size: 12px;
     padding: 10px;
 }
 
+@media screen and (max-width:912px) {
+
+
+    .Contenido-princ {
+        display: block;
+        margin-top: 60px;
+        width: 100%;
+        margin-left: 120px;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+
+    .Contenido-princ p {
+
+        padding: 10px;
+        text-align: center;
+        margin: 40px;
+    }
+
+    .form-content {
+        width: 50%;
+
+    }
+}
 
 @media screen and (max-width: 768px) {
-    
+
     .Titulo-princ h1 {
         font-size: 12px;
     }
-    
+
 
     .Contenido-encabezado ul {
         margin-top: 50px;
@@ -215,37 +241,11 @@ select {
         padding: 14px 11px;
         font-size: 8px;
         margin-bottom: 5px;
-        border-radius: 2,5px;
+        border-radius: 2, 5px;
 
 
 
     }
-    
+
 
 }
-
-@media screen and (max-width:912px) {
-    
-    
-    .Contenido-princ {
-        display: block;
-        margin-top: 60px;
-        width: 100%;
-         margin-left: 120px;
-        align-items: center;
-        padding: 20px;
-        margin-bottom: 100px;
-    }
-            .Contenido-princ p{
-                
-                padding: 10px;
-                text-align: center;
-                margin: 40px;
-            }
-
-            .form-content{
-                width: 50%;
-                
-            }
-}    
-    

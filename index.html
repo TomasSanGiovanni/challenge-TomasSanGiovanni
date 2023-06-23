@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Evento Nuevas Tecnologias">
+    <meta name="keywords" content="Evento, inteligencia artificial, investigación, nuevos paradigmas">
+    <link rel="icon" href="./Imagenes/fondo-challenge.ico">
     <link rel="stylesheet" href="./estilos/style.css">
-   
+
+    <title>Document</title>
 </head>
+
 <body>
     <header class="Contenido-encabezado">
-        <div class="Titulo-princ"> 
-            <H1>Tecnologias Modernas</H1>    
+        <div class="Titulo-princ">
+            <H1>Tecnologias Modernas</H1>
         </div>
-        
-        
+
+
         <ul>
             <a href="#">Inicio</a>
             <a href="#">Sobre Nosotros</a>
             <a href="#">Contacto</a>
         </ul>
-        
+
 
     </header>
-    
+
     <section class="Contenido-princ">
-            
+
         <div class="Contenido-img">
 
-            <img src="./Imagenes/imagen principal.jpg" alt="Imagen nuevas tecnologias"width="550px">
-            <p>El día Lunes 26 de junio, nuestro profesional Diego Fernandez, junto con su equipo de investigacion, nos brindará  una charla acerca de los avances de la inteligencia artificial y las ventajas que nos brindan. Aquellxs interesadxs podran participar del evento a treves de meet. Para poder participar deberán completar el formulario de inscripción.  </p>
+            <img src="./Imagenes/imagen principal.jpg" alt="Imagen nuevas tecnologias" width="550px">
+            <p>El día Lunes 26 de junio, nuestro profesional Diego Fernandez, junto con su equipo de investigacion, nos
+                brindará una charla acerca de los avances de la inteligencia artificial y las ventajas que nos brindan.
+                Aquellxs interesadxs podran participar del evento a través de Google Meet. Para poder participar deberán
+                completar el formulario de inscripción. </p>
 
         </div>
-        
-        
-        <div class="form-content">        
-            
-             <form action="/php/Formulario.php" method="post" id="form">
-                <h2>Inscripción</h2>
+
+
+        <div class="form-content">
+
+            <form action="/php/Formulario.php" method="post" id="form">
+                <h2>Inscripción </h2>
+
                 <div class="formEntrada  formNombre">
                     <label for="Nombre"> Nombre </label>
-                    <input  type="text" name="Nombre" id="Nombre"  ><br>
+                    <input type="text" name="Nombre" id="Nombre"><br>
                     <p class="MensajeError"></p>
                 </div>
-                <div class ="formEntrada  formApellido"> 
+                <div class="formEntrada  formApellido">
                     <label for="Apellido"> Apellido </label>
-                    <input type="text" name="Apellido" id="Apellido"  ><br>
+                    <input type="text" name="Apellido" id="Apellido"><br>
                     <p class="MensajeError"></p>
                 </div>
-                
+
                 <div class="formEntrada formDni">
                     <label for="Dni"> Dni </label>
                     <input type="text" name="Dni" id="Dni" pattern="[0-9]+" title="Solo se aceptan números"><br>
                     <p class="MensajeError"></p>
                 </div>
-                
+
                 <div class="formEntrada formEmail">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email"> <br>
                     <p class="MensajeError"></p>
                 </div>
-                
-                <input class="Boton-form" type="submit"   value="Enviar">
+
+                <input class="Boton-form" type="submit" value="Enviar">
                 <p class="InscripciónRealizada"></p>
-             </form>
-        
+            </form>
+
         </div>
     </section>
-<footer class="Cotenido-footer">
-    <div class="text-footer">
-        <h2>Contacto</h2>
-        <h2>Mas infomarcion</h2>
-    </div>
-</footer>
-<script src="js/challenge.js">  </script>
+    <footer class="Cotenido-footer">
+        <div class="text-footer">
+            <h2>© 2023 </h2>
+            
+        </div>
+    </footer>
+    <script src="js/challenge.js">  </script>
 </body>
+
 </html>

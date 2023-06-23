@@ -164,7 +164,7 @@ select {
 
     .Contenido-encabezado ul {
         margin-top: 50px;
-        width: 40%;
+        width: 60%;
     }
 
     .Contenido-encabezado a {
@@ -176,23 +176,26 @@ select {
     .Contenido-princ {
         display: block;
         width: 90%;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
 
     .Contenido-img img {
         width: 300px;
+        align-items: center;
     }
 
     .Contenido-img p {
-    padding-top: 5px;
+        padding-top: 5px;
+        text-align: center;
         width: 100%;
-        font-size: 12px;
+        font-size: 14px;
+        margin-left: 20px;
     }
 
     .form-content {
         width: 60%;
-        margin-left: 40px;
+        margin-left: 80px;
 
     }
 
